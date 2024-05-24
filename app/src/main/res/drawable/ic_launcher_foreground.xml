@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Compass path data -->
+    <path
+        android:pathData="M54,0 L72,36 L108,54 L72,72 L54,108 L36,72 L0,54 L36,36 Z"
+        android:fillColor="#1D024E" />
+
+    <!-- N arrow -->
+    <path
+        android:pathData="M50,10 L54,25 L58,10 Z"
+        android:fillColor="#CDDC39" />
+
+    <!-- S arrow -->
+    <path
+        android:pathData="M50,98 L54,83 L58,98 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- E arrow -->
+    <path
+        android:pathData="M98,54 L83,58 L98,62 Z"
+        android:fillColor="#FFEB3B" />
+
+    <!-- W arrow -->
+    <path
+        android:pathData="M10,54 L25,58 L10,62 Z"
+        android:fillColor="#FFFFFF" />
+
+</vector>

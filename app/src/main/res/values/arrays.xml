@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities">
+        <item>İstanbul</item>
+        <item>Ankara</item>
+        <item>İzmir</item>
+    </string-array>
+
+    <!--resimleri sıralamak için dizi  -->
+    <array name="istanbul_images">
+        <item>@drawable/istanbul1</item>
+        <item>@drawable/istanbul2</item>
+        <item>@drawable/istanbul3</item>
+        <item>@drawable/istanbul4</item>
+    </array>
+
+    <array name="ankara_images">
+        <item>@drawable/ankara1</item>
+        <item>@drawable/ankara2</item>
+        <item>@drawable/ankara3</item>
+        <item>@drawable/ankara4</item>
+    </array>
+
+    <array name="izmir_images">
+        <item>@drawable/izmir1</item>
+        <item>@drawable/izmir2</item>
+        <item>@drawable/izmir3</item>
+        <item>@drawable/izmir4</item>
+    </array>
+
+    <array name="istanbul_names">
+        <item>Ayasofya</item>
+        <item>Topkapı Sarayı</item>
+        <item>Kapalıçarşı</item>
+        <item>Boğaz Turu</item>
+    </array>
+
+    <array name="ankara_names">
+        <item>Anıtkabir</item>
+        <item>Kocatepe Camii</item>
+        <item>Atatürk Orman Çiftliği</item>
+        <item>Etnografya Müzesi</item>
+    </array>
+
+    <array name="izmir_names">
+        <item>Konak Meydanı</item>
+        <item>Kordon</item>
+        <item>Ephesus Antik Kenti</item>
+        <item>İzmir Saat Kulesi</item>
+    </array>
+</resources>
