@@ -54,15 +54,18 @@
         android:id="@+id/backButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
+        android:backgroundTint="#000000"
         android:layout_marginBottom="31dp"
         android:text="Back" />
 
     <Button
         android:id="@+id/streetViewButton"
+        style="@style/Widget.MaterialComponents.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/backButton"
@@ -70,7 +73,9 @@
         android:layout_marginRight="23dp"
         android:layout_marginBottom="5dp"
         android:layout_toLeftOf="@id/backButton"
-        android:text="Street View" />
+        android:backgroundTint="#000000"
+        android:text="Street View"
+        android:textSize="12.4sp" />
 
     <TextView
         android:id="@+id/detailLocationTextView"
@@ -87,11 +92,13 @@
 
     <Button
         android:id="@+id/navigateButton"
+        style="@style/Widget.MaterialComponents.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@id/backButton"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="5dp"
+        android:backgroundTint="#000000"
         android:layout_toRightOf="@id/backButton"
         android:text="Navigation" />
 

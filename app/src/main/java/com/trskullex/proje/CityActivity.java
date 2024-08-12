@@ -42,12 +42,7 @@ public class CityActivity extends AppCompatActivity {
 
         // Geri dön butonum
         Button backButton = findViewById(R.id.backButton);
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+        backButton.setOnClickListener(v -> finish());
     }
 
     // Şehirdeki gezilecek yerleri gösteren metodum
