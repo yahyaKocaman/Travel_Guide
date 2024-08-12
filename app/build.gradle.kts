@@ -8,10 +8,10 @@ android {
 
     defaultConfig {
         applicationId = "com.trskullex.proje"
-        minSdk = 31
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        minSdk = 25
+        targetSdk = 33
+        versionCode = 3
+        versionName = "3"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

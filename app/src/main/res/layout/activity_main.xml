@@ -1,5 +1,4 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,23 +20,30 @@
         android:layout_below="@id/imageView"
         android:layout_marginTop="23dp"
         android:fontFamily="sans-serif-thin"
-        android:text="Turkey Travel Guide"
+        android:text="Türkiye Travel Guide"
         android:textAlignment="center"
-        android:textColor="@color/material_dynamic_primary100"
+        android:textColor="#000000"
         android:textSize="46sp"
         android:textStyle="italic|bold"
         android:typeface="serif" />
 
     <Spinner
         android:id="@+id/citySpinner"
-        android:layout_width="392dp"
+        android:layout_width="match_parent"
         android:layout_height="63dp"
         android:layout_below="@id/titleTextView"
         android:layout_marginTop="16dp"
-        android:background="#7777FF"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="#c8c8c8"
         android:entries="@array/cities"
         android:prompt="@string/select_city_prompt"
-        android:spinnerMode="dropdown" />
+        android:spinnerMode="dropdown"
+        android:popupBackground="#c8c8c8"
+        android:textAlignment="viewStart"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:elevation="4dp" />
 
     <!-- Add an ID to the placesLayout -->
     <LinearLayout
@@ -54,8 +60,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/placesLayout"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:backgroundTint="#E91E63"
+        android:backgroundTint="#000000"
         android:text="Show places to visit" />
 
 </RelativeLayout>

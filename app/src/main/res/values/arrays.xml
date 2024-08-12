@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+
     <string-array name="cities">
         <item>İstanbul</item>
         <item>Ankara</item>
@@ -49,3 +51,4 @@
         <item>İzmir Saat Kulesi</item>
     </array>
 </resources>
+
