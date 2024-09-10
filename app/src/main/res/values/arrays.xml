@@ -3,9 +3,12 @@
 
 
     <string-array name="cities">
-        <item>İstanbul</item>
         <item>Ankara</item>
+        <item>Antalya</item>
+        <item>Bursa</item>
+        <item>İstanbul</item>
         <item>İzmir</item>
+
     </string-array>
 
     <!--resimleri sıralamak için dizi  -->
@@ -30,6 +33,21 @@
         <item>@drawable/izmir4</item>
     </array>
 
+    <array name="bursa_images">
+        <item>@drawable/bursa1</item>
+        <item>@drawable/bursa2</item>
+        <item>@drawable/bursa3</item>
+        <item>@drawable/bursa4</item>
+    </array>
+
+    <array name="antalya_images">
+        <item>@drawable/antalya1</item>
+        <item>@drawable/antalya2</item>
+        <item>@drawable/antalya3</item>
+        <item>@drawable/antalya4</item>
+    </array>
+
+
     <array name="istanbul_names">
         <item>Ayasofya</item>
         <item>Topkapı Sarayı</item>
@@ -50,5 +68,22 @@
         <item>Ephesus Antik Kenti</item>
         <item>İzmir Saat Kulesi</item>
     </array>
+
+
+    <array name="bursa_names">
+        <item>Cumalıkızık Village</item>
+        <item>Iznik Castle</item>
+        <item>Historical Greek Quarter</item>
+
+    </array>
+
+    <array name="antalya_names">
+        <item>Aspendos Theatre</item>
+        <item>Düden Waterfalls</item>
+        <item>Kaleiçi</item>
+        <item>Olympos</item>
+    </array>
+
+
 </resources>
 

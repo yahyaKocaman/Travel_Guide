@@ -2,46 +2,75 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:background="@color/white">
 
-    <!-- içeriği kaydırmak için -->
+    <!-- Hava durumu ikonu için ImageView -->
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/weatherIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Weather Icon" />
+
+    <!-- Sıcaklık bilgisi için TextView -->
+    <TextView
+        android:id="@+id/temperatureText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textColor="#FF5722"
+        android:textStyle="bold" />
+
+    <!-- Başlık için TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose A Photo"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- İçeriği kaydırmak için ScrollView -->
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_below="@id/weatherIcon"
+        android:layout_marginTop="16dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="16dp">
 
-
-            <!-- place layouta kimlik ekleme -->
+            <!-- Yerler için LinearLayout -->
             <LinearLayout
                 android:id="@+id/placesLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <!--  -->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:text="Choose A Photo" />
+                android:orientation="vertical">
+                <!-- Buraya dinamik olarak yerler eklenecek -->
             </LinearLayout>
 
+            <!-- Geri dönüş butonu -->
             <Button
                 android:id="@+id/backButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@style/Widget.MaterialComponents.Button"
                 android:text="Back"
-                android:backgroundTint="#000000"
+                android:backgroundTint="#01579B"
                 android:layout_gravity="center"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"/>
-
 
         </LinearLayout>
     </ScrollView>

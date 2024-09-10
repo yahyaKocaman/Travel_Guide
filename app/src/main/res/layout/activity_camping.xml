@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:backgroundTint="#000000"
+        android:backgroundTint="#0D47A1"
 
         android:text="Back to Menu"/>
 

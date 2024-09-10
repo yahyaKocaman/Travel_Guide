@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">Turkey/Travel/Guide</string>
-    <string name="select_city_prompt">Şehir seçmek için tıklayın</string>
-
+    <string name="app_name">CampAndGuide</string>
 </resources>
