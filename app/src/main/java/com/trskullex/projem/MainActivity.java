@@ -46,10 +46,10 @@ public class MainActivity extends AppCompatActivity {
                 .transition(DrawableTransitionOptions.withCrossFade())
                 .into(imageView);
 
-        // Load the new GIF below the cityButton
+
         Glide.with(this)
                 .asGif()
-                .load(R.drawable.road) // Replace with your actual GIF resource
+                .load(R.drawable.road) 
                 .transition(DrawableTransitionOptions.withCrossFade())
                 .into(gifImageView);
 
