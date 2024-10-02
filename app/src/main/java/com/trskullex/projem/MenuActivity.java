@@ -15,21 +15,21 @@ public class MenuActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        loadTheme(); // Tema yükleme metodunu çağır
+        loadTheme(); 
         setContentView(R.layout.activity_menu);
 
         ImageButton travelButton = findViewById(R.id.travelButton);
         ImageButton campingButton = findViewById(R.id.campingButton);
 
-        // Glide ile animasyonlu GIF'leri yükleyin
+        
         Glide.with(this)
                 .asGif()
-                .load(R.drawable.travel_animated) // Burada travel GIF dosyasının kaynağını belirtin
+                .load(R.drawable.travel_animated) 
                 .into(travelButton);
 
         Glide.with(this)
                 .asGif()
-                .load(R.drawable.camping_animated) // Burada camping GIF dosyasının kaynağını belirtin
+                .load(R.drawable.camping_animated) 
                 .into(campingButton);
 
         travelButton.setOnClickListener(v -> {
