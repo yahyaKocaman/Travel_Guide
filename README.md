@@ -67,7 +67,7 @@ Google Maps API key
 OpenWeather API key
 ## Installation
 Clone the repository:
-git clone https://github.com/yourusername/travel-guide-app.git
+git clone https://github.com/yahyakocaman/travel-guide-app.git
 
 Open project in Android Studio
 
