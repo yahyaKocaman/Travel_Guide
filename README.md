@@ -1,5 +1,5 @@
 # Travel Guide Application
-![Team_Logo](https://github.com/yahyaKocaman/Travel_Guide/blob/master/DALL%C2%B7E-2024-11-02-20.49.jpg)
+![Team_Logo](https://github.com/yahyaKocaman/Travel_Guide/blob/master/logo.jpg)
 ## About
 A comprehensive Android travel guide application that helps users explore cities in Turkey, discover landmarks, and plan their trips effectively.
 
