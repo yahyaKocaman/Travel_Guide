@@ -7,10 +7,15 @@ A comprehensive Android travel guide application that helps users explore cities
 ## Screenshots
 <p align="center">
   <img src="screenshots/main_screen.jpg" width="200" alt="Main Screen">
-  <img src="screenshots/city_selection.jpg" width="200" alt="City Selection">
-  <img src="screenshots/attractions_map.jpg" width="200" alt="Attractions Map">
-  <img src="screenshots/photo_gallery.jpg" width="200" alt="Photo Gallery">
+  <img src="screenshots/city_selection.jpg" width="200" alt="City Selection Dropdown">
+  <img src="screenshots/camping_map.jpg" width="200" alt="Camping Map">
 </p>
+<p align="center">
+  <img src="screenshots/attractions_cumalikizik.jpg" width="200" alt="Cumalıkızık Village">
+  <img src="screenshots/attractions_antalya.jpg" width="200" alt="Antalya Attractions">
+  <img src="screenshots/category_selection.jpg" width="200" alt="Category Selection">
+</p>
+
 
 ## Features
 ### 🌟 Key Features
