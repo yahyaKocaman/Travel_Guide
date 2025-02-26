@@ -8,7 +8,7 @@ A comprehensive Android travel guide application that helps users explore cities
 <p align="center">
   <img src="screenshots/main_screen.png" width="200" alt="Main Screen">
   <img src="screenshots/city_selection.png" width="200" alt="City Selection Dropdown">
-  <img src="screenshots/camping_map.png" width="200" alt="Camping Map">
+  <img src="screenshots/camping_map.jpg" width="200" alt="Camping Map">
 </p>
 <p align="center">
   <img src="screenshots/attractions_cumalikizik.png" width="200" alt="Cumalıkızık Village">
