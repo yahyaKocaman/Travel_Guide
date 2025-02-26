@@ -24,8 +24,9 @@ A comprehensive Android travel guide application that helps users explore cities
 
 
 <p align="center">
- <img src="screenshots/streetview.jpg" width="200" alt="Ana Ekran">
  <img src="screenshots/Place_Details.jpg" width="200" alt="Şehir Seçimi">
+ <img src="screenshots/streetview.jpg" width="200" alt="Ana Ekran">
+
 </p>
 
 
