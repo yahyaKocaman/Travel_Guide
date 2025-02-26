@@ -12,8 +12,8 @@ A comprehensive Android travel guide application that helps users explore cities
   <img src="screenshots/city_selection.png" width="200" alt="Şehir Seçimi">
 </p>
 ### Turistik Yerin 3 Boyutlu Görünümü ve Detaylar
- <img src="screenshots/streetview.png" width="200" alt="Ana Ekran">
- <img src="screenshots/Place_Details.png" width="200" alt="Şehir Seçimi">
+ <img src="screenshots/streetview.jpg" width="200" alt="Ana Ekran">
+ <img src="screenshots/Place_Details.jpg" width="200" alt="Şehir Seçimi">
 
 ### Kamp Haritası ve Turistik Yerler
 <p align="center">
