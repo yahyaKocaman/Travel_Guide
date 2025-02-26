@@ -5,17 +5,24 @@
 A comprehensive Android travel guide application that helps users explore cities in Turkey, discover landmarks, and plan their trips effectively.
 
 ## Screenshots
+
+### Ana Ekran ve Şehir Seçimi
 <p align="center">
-  <img src="screenshots/main_screen.png" width="200" alt="Main Screen">
-  <img src="screenshots/city_selection.png" width="200" alt="City Selection Dropdown">
-  <img src="screenshots/camping_map.jpg" width="200" alt="Camping Map">
-</p>
-<p align="center">
-  <img src="screenshots/attractions_cumalikizik.png" width="200" alt="Cumalıkızık Village">
-  <img src="screenshots/attractions_antalya.png" width="200" alt="Antalya Attractions">
-  <img src="screenshots/category_selection.png" width="200" alt="Category Selection">
+  <img src="screenshots/main_screen.png" width="200" alt="Ana Ekran">
+  <img src="screenshots/city_selection.png" width="200" alt="Şehir Seçimi">
 </p>
 
+### Kamp Haritası ve Turistik Yerler
+<p align="center">
+  <img src="screenshots/camping_map.jpg" width="200" alt="Kamp Haritası">
+  <img src="screenshots/attractions_cumalikizik.png" width="200" alt="Cumalıkızık Köyü">
+  <img src="screenshots/attractions_antalya.png" width="200" alt="Antalya Turistik Yerler">
+</p>
+
+### Kategori Seçimi ve Detaylar
+<p align="center">
+  <img src="screenshots/category_selection.png" width="200" alt="Kategori Seçimi">
+</p>
 
 ## Features
 ### 🌟 Key Features
