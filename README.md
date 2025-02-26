@@ -15,7 +15,7 @@ A comprehensive Android travel guide application that helps users explore cities
 ### Kamp Haritası ve Turistik Yerler
 <p align="center">
   <img src="screenshots/camping_map.jpg" width="200" alt="Kamp Haritası">
-  <img src="screenshots/attractions_cumalikizik.png" width="200" alt="Cumalıkızık Köyü">
+  <img src="screenshots/attractions_cumalikizik.png" width="200" alt="Bursa Turistik Yerler">
   <img src="screenshots/attractions_antalya.png" width="200" alt="Antalya Turistik Yerler">
 </p>
 
