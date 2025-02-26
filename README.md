@@ -7,16 +7,21 @@ A comprehensive Android travel guide application that helps users explore cities
 ## Screenshots
 
 ### Ana Ekran ve Şehir Seçimi
+
 <p align="center">
   <img src="screenshots/main_screen.png" width="200" alt="Ana Ekran">
   <img src="screenshots/city_selection.png" width="200" alt="Şehir Seçimi">
 </p>
+
 ### Turistik Yerin 3 Boyutlu Görünümü ve Detaylar
+
 <p align="center">
  <img src="screenshots/streetview.jpg" width="200" alt="Ana Ekran">
  <img src="screenshots/Place_Details.jpg" width="200" alt="Şehir Seçimi">
 </p>
+
 ### Kamp Haritası ve Turistik Yerler
+
 <p align="center">
   <img src="screenshots/camping_map.jpg" width="200" alt="Kamp Haritası">
   <img src="screenshots/attractions_cumalikizik.png" width="200" alt="Bursa Turistik Yerler">
@@ -24,9 +29,11 @@ A comprehensive Android travel guide application that helps users explore cities
 </p>
 
 ### Kategori Seçimi ve Detaylar
+
 <p align="center">
   <img src="screenshots/category_selection.png" width="200" alt="Kategori Seçimi">
 </p>
+
 
 ## Features
 ### 🌟 Key Features
